@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_rotate.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable\\progressbar_rotate.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable\\collection.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable\\collection.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable\\lin_but.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable\\lin_but.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_custom_bg.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable\\progress_custom_bg.xml"
+    }
+]

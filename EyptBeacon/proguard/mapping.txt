@@ -1,0 +1,269 @@
+android.support.annotation.Keep -> android.support.annotation.Keep:
+com.axaet.activity.BaseActivity -> com.axaet.activity.a:
+    com.axaet.application.MyApplication application -> a
+    android.bluetooth.BluetoothAdapter bluetoothAdapter -> b
+    android.widget.ProgressBar refreshProgress -> c
+    android.widget.TextView textDeviceNum -> d
+    android.widget.ListView listViewDevice -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void scanLeDevice(boolean,android.bluetooth.BluetoothAdapter$LeScanCallback) -> a
+    void initView() -> a
+com.axaet.activity.ModifyPasswoedActivity -> com.axaet.activity.ModifyPasswoedActivity:
+    android.widget.TextView name_text -> a
+    android.widget.EditText oldpassword_edit -> b
+    android.widget.EditText newpassword_edit -> c
+    android.widget.EditText confirmpassword_edit -> d
+    android.widget.Button button_modify -> e
+    java.lang.String deviceName -> f
+    com.axaet.application.MyApplication application -> g
+    android.content.BroadcastReceiver mGattUpdateReceiver -> h
+    java.lang.String oldpassword -> i
+    java.lang.String newpassword -> j
+    java.lang.String confirmpassword -> k
+    android.os.Handler handler -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void onClick(android.view.View) -> onClick
+    void sendData() -> b
+    android.content.IntentFilter makeGattUpdateIntentFilter() -> c
+    void onDestroy() -> onDestroy
+    android.os.Handler access$0(com.axaet.activity.ModifyPasswoedActivity) -> a
+    void access$1(com.axaet.activity.ModifyPasswoedActivity) -> b
+com.axaet.activity.ModifyPasswoedActivity$1 -> com.axaet.activity.b:
+    com.axaet.activity.ModifyPasswoedActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.axaet.activity.ModifyPasswoedActivity$2 -> com.axaet.activity.c:
+    com.axaet.activity.ModifyPasswoedActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.axaet.activity.ModifyiBeaconActivity -> com.axaet.activity.ModifyiBeaconActivity:
+    int time -> c
+    android.inputmethodservice.KeyboardView keyboardView -> d
+    android.widget.Button modifyButton -> e
+    java.lang.String mDeviceName -> f
+    java.lang.String mDeviceAddress -> g
+    com.axaet.service.BluetoothLeService mBluetoothLeService -> h
+    int num -> i
+    java.lang.String Major -> j
+    java.lang.String Minor -> k
+    java.lang.String Period -> l
+    int txPowerNumber -> m
+    java.lang.String uuid -> n
+    android.widget.ArrayAdapter arrayAdapter -> o
+    android.widget.EditText uuid_text -> p
+    android.widget.EditText major_text -> q
+    android.widget.EditText minor_text -> r
+    android.widget.AutoCompleteTextView period_text -> s
+    android.widget.EditText deviceName -> t
+    android.widget.EditText password -> u
+    android.widget.TextView number_text -> v
+    android.widget.EditText edit_txpower -> w
+    android.widget.ImageView setpassword -> x
+    boolean isActive -> y
+    android.app.Dialog dialog -> z
+    com.axaet.application.MyApplication application -> A
+    android.os.Handler handler -> B
+    android.content.ServiceConnection mServiceConnection -> C
+    android.content.BroadcastReceiver mGattUpdateReceiver -> D
+    android.content.DialogInterface$OnKeyListener keyListener -> a
+    android.view.View$OnTouchListener onTouchListener -> b
+    java.lang.String MajorTemp -> E
+    java.lang.String MinorTemp -> F
+    java.lang.String PeriodTemp -> G
+    java.lang.String NameTemp -> H
+    java.lang.String uuidTemp -> I
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void onResume() -> onResume
+    android.content.IntentFilter makeGattUpdateIntentFilter() -> b
+    void showKeyboard() -> c
+    void hideKeyboard() -> d
+    void hintKbTwo() -> e
+    void setedit(android.widget.EditText) -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onClick(android.view.View) -> onClick
+    void initData() -> f
+    void sendData() -> g
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+    boolean access$0(com.axaet.activity.ModifyiBeaconActivity) -> a
+    void access$1(com.axaet.activity.ModifyiBeaconActivity) -> b
+    void access$2(com.axaet.activity.ModifyiBeaconActivity,com.axaet.service.BluetoothLeService) -> a
+    com.axaet.application.MyApplication access$3(com.axaet.activity.ModifyiBeaconActivity) -> c
+    com.axaet.service.BluetoothLeService access$4(com.axaet.activity.ModifyiBeaconActivity) -> d
+    java.lang.String access$5(com.axaet.activity.ModifyiBeaconActivity) -> e
+    android.app.Dialog access$6(com.axaet.activity.ModifyiBeaconActivity) -> f
+    android.os.Handler access$7(com.axaet.activity.ModifyiBeaconActivity) -> g
+    void access$8(com.axaet.activity.ModifyiBeaconActivity,java.lang.String) -> a
+    android.widget.EditText access$9(com.axaet.activity.ModifyiBeaconActivity) -> h
+    java.lang.String access$10(com.axaet.activity.ModifyiBeaconActivity) -> i
+    void access$11(com.axaet.activity.ModifyiBeaconActivity,java.lang.String) -> b
+    void access$12(com.axaet.activity.ModifyiBeaconActivity,java.lang.String) -> c
+    void access$13(com.axaet.activity.ModifyiBeaconActivity,java.lang.String) -> d
+    void access$14(com.axaet.activity.ModifyiBeaconActivity,int) -> a
+    android.widget.EditText access$15(com.axaet.activity.ModifyiBeaconActivity) -> j
+    int access$16(com.axaet.activity.ModifyiBeaconActivity) -> k
+    android.widget.EditText access$17(com.axaet.activity.ModifyiBeaconActivity) -> l
+    java.lang.String access$18(com.axaet.activity.ModifyiBeaconActivity) -> m
+    android.widget.EditText access$19(com.axaet.activity.ModifyiBeaconActivity) -> n
+    java.lang.String access$20(com.axaet.activity.ModifyiBeaconActivity) -> o
+    android.widget.AutoCompleteTextView access$21(com.axaet.activity.ModifyiBeaconActivity) -> p
+    java.lang.String access$22(com.axaet.activity.ModifyiBeaconActivity) -> q
+    void access$23(com.axaet.activity.ModifyiBeaconActivity) -> r
+    android.widget.TextView access$24(com.axaet.activity.ModifyiBeaconActivity) -> s
+    int access$25(com.axaet.activity.ModifyiBeaconActivity) -> t
+    void access$26(com.axaet.activity.ModifyiBeaconActivity) -> u
+    void access$27(com.axaet.activity.ModifyiBeaconActivity) -> v
+    android.inputmethodservice.KeyboardView access$28(com.axaet.activity.ModifyiBeaconActivity) -> w
+com.axaet.activity.ModifyiBeaconActivity$1 -> com.axaet.activity.d:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.axaet.activity.ModifyiBeaconActivity$2 -> com.axaet.activity.e:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.axaet.activity.ModifyiBeaconActivity$3 -> com.axaet.activity.f:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.axaet.activity.ModifyiBeaconActivity$4 -> com.axaet.activity.g:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+com.axaet.activity.ModifyiBeaconActivity$5 -> com.axaet.activity.h:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.axaet.activity.ModifyiBeaconActivity$6 -> com.axaet.activity.i:
+    java.lang.CharSequence temp -> b
+    int selectionStart -> c
+    int selectionEnd -> d
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.axaet.activity.ModifyiBeaconActivity$7 -> com.axaet.activity.j:
+    com.axaet.activity.ModifyiBeaconActivity this$0 -> a
+    android.widget.EditText val$edit -> b
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    com.axaet.activity.ModifyiBeaconActivity access$0(com.axaet.activity.ModifyiBeaconActivity$7) -> a
+com.axaet.activity.ModifyiBeaconActivity$7$1 -> com.axaet.activity.k:
+    com.axaet.activity.ModifyiBeaconActivity$7 this$1 -> a
+    android.widget.EditText val$edit -> b
+    void onKey(int,int[]) -> onKey
+    void onPress(int) -> onPress
+    void onRelease(int) -> onRelease
+    void onText(java.lang.CharSequence) -> onText
+    void swipeDown() -> swipeDown
+    void swipeLeft() -> swipeLeft
+    void swipeRight() -> swipeRight
+    void swipeUp() -> swipeUp
+com.axaet.activity.ScanActivity -> com.axaet.activity.ScanActivity:
+    com.axaet.adpter.DeviceAdpter deviceAdpter -> f
+    android.bluetooth.BluetoothAdapter$LeScanCallback mLeScanCallback -> g
+    long exitTime -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void setListener() -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onClick(android.view.View) -> onClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    com.axaet.adpter.DeviceAdpter access$0(com.axaet.activity.ScanActivity) -> a
+com.axaet.activity.ScanActivity$1 -> com.axaet.activity.l:
+    com.axaet.activity.ScanActivity this$0 -> a
+    void onLeScan(android.bluetooth.BluetoothDevice,int,byte[]) -> onLeScan
+    com.axaet.activity.ScanActivity access$0(com.axaet.activity.ScanActivity$1) -> a
+com.axaet.activity.ScanActivity$1$1 -> com.axaet.activity.m:
+    com.axaet.activity.ScanActivity$1 this$1 -> a
+    com.axaet.beans.iBeaconClass$iBeacon val$ibeacon -> b
+    void run() -> run
+com.axaet.activity.ScanActivity$2 -> com.axaet.activity.n:
+    com.axaet.activity.ScanActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.axaet.activity.SplashActivity -> com.axaet.activity.SplashActivity:
+    java.lang.Runnable runnable -> f
+    void onCreate(android.os.Bundle) -> onCreate
+com.axaet.activity.SplashActivity$1 -> com.axaet.activity.o:
+    com.axaet.activity.SplashActivity this$0 -> a
+    void run() -> run
+com.axaet.adpter.CommonBaseAdpter -> com.axaet.a.a:
+    java.util.List list -> a
+    android.view.LayoutInflater inflater -> b
+    android.content.res.Resources resources -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    void clearData() -> a
+com.axaet.adpter.DeviceAdpter -> com.axaet.a.b:
+    java.util.Comparator comparator -> d
+    void addData(com.axaet.beans.iBeaconClass$iBeacon) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.axaet.adpter.DeviceAdpter$1 -> com.axaet.a.c:
+    com.axaet.adpter.DeviceAdpter this$0 -> a
+    int compare(com.axaet.beans.iBeaconClass$iBeacon,com.axaet.beans.iBeaconClass$iBeacon) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.axaet.adpter.DeviceAdpter$ViewHolder -> com.axaet.a.d:
+    android.widget.TextView deviceName -> a
+    android.widget.TextView deviceUUID -> b
+    android.widget.TextView distanceMac -> c
+    android.widget.TextView deviceMajor -> d
+    android.widget.TextView deviceMinor -> e
+    android.widget.TextView devicetxPower_RSSI -> f
+com.axaet.application.MyApplication -> com.axaet.application.MyApplication:
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> a
+    com.axaet.service.BluetoothLeService bluetoothLeService -> b
+    void onCreate() -> onCreate
+com.axaet.beans.iBeaconClass -> com.axaet.b.a:
+    com.axaet.beans.iBeaconClass$iBeacon fromScanData(android.bluetooth.BluetoothDevice,int,byte[]) -> a
+com.axaet.beans.iBeaconClass$iBeacon -> com.axaet.b.b:
+    java.lang.String name -> a
+    int major -> b
+    int minor -> c
+    java.lang.String proximityUuid -> d
+    java.lang.String bluetoothAddress -> e
+    int rssi -> f
+    int compareTo(com.axaet.beans.iBeaconClass$iBeacon) -> a
+    int compareTo(java.lang.Object) -> compareTo
+com.axaet.service.BluetoothLeService -> com.axaet.service.BluetoothLeService:
+    android.bluetooth.BluetoothManager mBluetoothManager -> e
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> f
+    android.bluetooth.BluetoothGatt mBluetoothGatt -> g
+    java.lang.String mBluetoothDeviceAddress -> h
+    java.util.UUID UUID_LOST_SERVICE -> a
+    java.util.UUID UUID_LOST_WRITE -> b
+    java.util.UUID UUID_LOST_ENABLE -> c
+    java.util.UUID UUID_HEART_RATE_MEASUREMENT -> d
+    android.bluetooth.BluetoothGattCallback mGattCallback -> i
+    android.os.IBinder mBinder -> j
+    void broadcastUpdate(java.lang.String) -> b
+    void broadcastUpdate(java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    boolean onUnbind(android.content.Intent) -> onUnbind
+    boolean initialize() -> a
+    boolean connect(java.lang.String) -> a
+    void disconnect() -> b
+    void close() -> c
+    void setCharacteristicNotification(android.bluetooth.BluetoothGattCharacteristic,boolean) -> a
+    void enableLostNoti() -> d
+    void LostWriteData(byte[]) -> a
+    android.bluetooth.BluetoothGatt access$0(com.axaet.service.BluetoothLeService) -> a
+    void access$1(com.axaet.service.BluetoothLeService,java.lang.String) -> a
+    void access$2(com.axaet.service.BluetoothLeService,java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
+com.axaet.service.BluetoothLeService$1 -> com.axaet.service.a:
+    com.axaet.service.BluetoothLeService this$0 -> a
+    void onConnectionStateChange(android.bluetooth.BluetoothGatt,int,int) -> onConnectionStateChange
+    void onServicesDiscovered(android.bluetooth.BluetoothGatt,int) -> onServicesDiscovered
+    void onCharacteristicRead(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int) -> onCharacteristicRead
+    void onCharacteristicChanged(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic) -> onCharacteristicChanged
+    void onDescriptorWrite(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattDescriptor,int) -> onDescriptorWrite
+    void onCharacteristicWrite(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int) -> onCharacteristicWrite
+com.axaet.service.BluetoothLeService$LocalBinder -> com.axaet.service.b:
+    com.axaet.service.BluetoothLeService this$0 -> a
+    com.axaet.service.BluetoothLeService getService() -> a
+com.axaet.util.CustomProgress -> com.axaet.c.a:
+    com.axaet.util.CustomProgress show(android.content.Context,java.lang.CharSequence,boolean,android.content.DialogInterface$OnKeyListener) -> a
+com.axaet.utils.Conversion -> com.axaet.d.a:
+    java.lang.String a -> a
+    java.lang.String bytesToHexString(byte[]) -> a
+    byte[] hex2Byte(java.lang.String) -> a
+    byte[] str2Byte(java.lang.String,byte) -> a
+    byte[] str2ByteDeviceName(java.lang.String) -> b
+    byte[] a(byte[],int) -> a
+    byte[] AxaBeacon_Encrypt(byte[]) -> b
+    byte[] AxaBeacon_Decrypt(byte[]) -> c

@@ -1,0 +1,22 @@
+# view res/layout/activity_modifyibeacon.xml #generated:308
+# view res/layout/keyboardview.xml #generated:10
+-keep class android.inputmethodservice.KeyboardView { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.axaet.activity.ModifyPasswoedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.axaet.activity.ModifyiBeaconActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.axaet.activity.ScanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.axaet.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.axaet.application.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.axaet.service.BluetoothLeService { <init>(...); }
+

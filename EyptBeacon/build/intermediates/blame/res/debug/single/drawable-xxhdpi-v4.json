@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\iblogo.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\iblogo.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_titleputure.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\ic_titleputure.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_type_bg.9.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\home_type_bg.9.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_temperature.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\btn_temperature.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\input_bg.9.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\input_bg.9.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\passwordicon.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\passwordicon.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\base_horization_line.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\base_horization_line.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backg.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\backg.png"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\base_edit_input.9.png",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\drawable-xxhdpi\\base_edit_input.9.png"
+    }
+]

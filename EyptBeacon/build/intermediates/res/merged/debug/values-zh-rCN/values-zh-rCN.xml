@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Searching_please_wait">搜索中</string>
+    <string name="app_name">AXABeacon</string>
+    <string name="ble_not_supported">设备不支持低功耗</string>
+    <string name="dialog_connecting">连接中</string>
+    <string name="error_bluetooth_not_supported">设备不支持蓝牙</string>
+    <string name="toast_confirm_again">请再次确认</string>
+    <string name="toast_connect_failed">连接失败，请重连</string>
+    <string name="toast_connect_tip">该设备不能连接</string>
+    <string name="toast_connected_successfully">连接成功</string>
+    <string name="toast_input_major">请输入Major</string>
+    <string name="toast_input_minor">请输入Minor</string>
+    <string name="toast_input_password">请输入密码</string>
+    <string name="toast_input_period">请输入Period</string>
+    <string name="toast_input_uuid">请输入UUID</string>
+    <string name="toast_major_range">Major不能大于65536</string>
+    <string name="toast_minor_range">Minor不能大于65536</string>
+    <string name="toast_modify_successfully">修改成功</string>
+    <string name="toast_modifying">修改中</string>
+    <string name="toast_new_password_length">密码必须为6位</string>
+    <string name="toast_password_error">密码错误</string>
+    <string name="toast_quit">再按一次退出应用</string>
+    <string name="unknown_device">Unknown device</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn1">#45dbfc</color>
+    <color name="btn2">#07AFBF</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <drawable name="gray">#ff6b6b6b</drawable>
+    <drawable name="green">#0f0</drawable>
+    <drawable name="huise">#ececec</drawable>
+    <drawable name="red">#f00</drawable>
+    <drawable name="white">#fff</drawable>
+    <string name="Searching_please_wait">Searching, please wait</string>
+    <string name="app_name">AXABeacon</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="dialog_connecting">connecting</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="toast_confirm_again">Please confirm again</string>
+    <string name="toast_connect_failed">Connect failed, please again</string>
+    <string name="toast_connect_tip">The device cannt connect</string>
+    <string name="toast_connected_successfully">connected successfully</string>
+    <string name="toast_input_major">Please input the Major</string>
+    <string name="toast_input_minor">Please input the Minor</string>
+    <string name="toast_input_password">Please input the password</string>
+    <string name="toast_input_period">Please input the Period</string>
+    <string name="toast_input_uuid">Please input the right uuid</string>
+    <string name="toast_major_range">the Major must be smaller than 65536</string>
+    <string name="toast_minor_range">the Minor must be smaller than 65536</string>
+    <string name="toast_modify_successfully">Modify successfully</string>
+    <string name="toast_modifying">Modifying</string>
+    <string name="toast_new_password_length">The new password length must be 6</string>
+    <string name="toast_password_error">password error</string>
+    <string name="toast_quit">Press again to exit the AXABeacon</string>
+    <string name="unknown_device">Unknown device</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ContentOverlay" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@drawable/bg_splash</item>
+    </style>
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

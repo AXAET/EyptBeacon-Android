@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EyptBeacon</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="Searching_please_wait">Searching, please wait</string>
+    <string name="toast_quit">Press again to exit the EyptBeacon</string>
+    <string name="toast_connect_tip">The device cannt connect</string>
+    <string name="toast_password_error">password error</string>
+    <string name="toast_connected_successfully">connected successfully</string>
+    <string name="toast_connect_failed">Connect failed, please again</string>
+    <string name="dialog_connecting">connecting</string>
+    <string name="toast_input_password">Please input the password</string>
+    <string name="toast_input_uuid">Please input the right uuid</string>
+    <string name="toast_input_major">Please input the Major</string>
+    <string name="toast_major_range">the Major must be smaller than 65536</string>
+    <string name="toast_input_minor">Please input the Minor</string>
+    <string name="toast_minor_range">the Minor must be smaller than 65536</string>
+    <string name="toast_input_period">Please input the Period</string>
+    <string name="toast_input_txpower">Please input the txpower</string>
+    <string name="toast_modifying">Modifying</string>
+    <string name="toast_modify_successfully">Modify successfully</string>
+    <string name="toast_new_password_length">The new password length must be 6</string>
+    <string name="toast_confirm_again">Please confirm again</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff45dbfc"
+        android:gravity="center"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/imageTitle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_titleputure" />
+
+        <TextView
+            android:id="@+id/text_devicenum"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageTitle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="AXABeacon"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_temperature"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/progressBar"
+            android:background="@drawable/button_selector"
+            android:src="@drawable/btn_temperature"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/bt_so"
+            android:clickable="true"
+            android:background="@drawable/button_selector"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

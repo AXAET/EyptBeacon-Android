@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scan.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\common_header.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\common_header.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\common_header2.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\common_header2.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modifyibeacon.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\activity_modifyibeacon.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_sensor.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\listitem_sensor.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\keycontent.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\keycontent.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\keyboardview.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\keyboardview.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modifypassword.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\activity_modifypassword.xml"
+    },
+    {
+        "merged": "F:\\androidtools\\AndroidSVN\\AXABeacon\\build\\intermediates\\res\\merged\\debug\\layout\\progress_custom.xml",
+        "source": "F:\\androidtools\\AndroidSVN\\AXABeacon\\res\\layout\\progress_custom.xml"
+    }
+]
