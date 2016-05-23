@@ -17,9 +17,9 @@ public class iBeaconClass {
 		public int minor;
 		public String proximityUuid;
 		public String bluetoothAddress;
-		public int txPower;
+	
 		public int rssi;
-		public String distance;
+	
 
 		@Override
 		public int compareTo(iBeacon another) {
@@ -30,7 +30,7 @@ public class iBeaconClass {
 			return 0;
 		}
 	}
-static DecimalFormat df = new DecimalFormat("#0.00");
+
 	@SuppressLint("DefaultLocale")
 	public static iBeacon fromScanData(BluetoothDevice device, int rssi, byte[] scanData) {
 		byte[] Bytes = new byte[20];
@@ -61,27 +61,6 @@ static DecimalFormat df = new DecimalFormat("#0.00");
 		sb.append("-");
 		sb.append(hexString.substring(20, 32));
 		iBeacon.proximityUuid = sb.toString().toUpperCase();
-		 iBeacon.distance = df.format(calculateAccuracy(
-		 (int) scanData[startByte + 24], rssi));
 		return iBeacon;
-	}
-	/**
-	 * Calculating distance by txpower and RSSI parameters
-	 * @param txPower
-	 * @param rssi
-	 * @return
-	 */
-		public static  double calculateAccuracy(int txPower, double rssi) {
-		if (rssi > 0) {
-			return -1.0; // if we cannot determine accuracy, return -1.
-		}
-
-		double ratio = rssi * 1.0 / txPower;
-		if (ratio < 1.0) {
-			return Math.pow(ratio, 10);
-		} else {
-			double accuracy = (0.89976) * Math.pow(ratio, 7.7095) + 0.111;
-			return accuracy;
-		}
 	}
 }
